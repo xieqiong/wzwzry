@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="image-bak" src="./img/bk1.jpg" mode="aspectFit">  </image>
+  <view class="team-box">
+    <view class="time-title">打一枪就跑的队伍</view>
+    <view class="team-item">
+      <image class="member-avatar" src="./img/m1.jpg"  mode="aspectFit"></image>
+      <view class="member-name">
+        <view class="member-name-title">打一枪在跑
+          <text class="member-name-levle">王者</text>
+        </view>
+        <view class="member-name-position">打野</view>
+      </view>
+    </view>
+    <view class="team-item">
+      <image class="member-avatar" src="./img/m2.jpg"  mode="aspectFit"></image>
+       <view class="member-name">
+        <view class="member-name-title">打一枪再跑
+          <text class="member-name-levle">王者</text>
+        </view>
+        <view class="member-name-position">打野</view>
+      </view>
+    </view>
+    <view class="team-item">
+      <image class="member-avatar" src="./img/m3.jpg"  mode="aspectFit"></image>
+       <view class="member-name">
+        <view class="member-name-title">打一枪可跑
+          <text class="member-name-levle">王者</text>
+        </view>
+        <view class="member-name-position">打野</view>
+      </view>
+    </view>
+    <view class="team-item">
+      <image class="member-avatar" src="./img/m1.jpg"  mode="aspectFit"></image>
+       <view class="member-name">
+        <view class="member-name-title">打一枪别跑
+          <text class="member-name-levle">王者</text>
+        </view>
+        <view class="member-name-position">打野</view>
+      </view>
+    </view>
+    <view class="team-item">
+      <image class="member-avatar" src="./img/m1.jpg"  mode="aspectFit"></image>
+       <view class="member-name">
+        <view class="member-name-title">打一枪快跑
+          <text class="member-name-levle">王者</text>
+        </view>
+        <view class="member-name-position">打野</view>
+      </view>
+    </view>
+  </view>
+</view>
