@@ -50,5 +50,30 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  doLogin: function (e) {
+    console.log(e.detail.errMsg)
+    console.log(e.detail.userInfo)
+    console.log(e.detail.rawData)
+
+    wx.login({
+      success: function (res) {
+        console.log(res)
+        //获取登录的临时凭证
+        var code = res.code;
+        //调用后端，获取微信的session_key,secret
+        wx.request({
+          url: 'http://192.168.0.15:8090/wxLogin?code=' + code,
+          method: "POST",
+          success: function (result) {
+            console.log(result);
+            app.setGlobalUserInfo(e.detail.userInfo);
+            wx.redirectTo({
+              url: '../index/index'
+            })
+          }
+        })
+      }
+    })
   }
 })

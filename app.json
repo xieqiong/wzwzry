@@ -4,7 +4,8 @@
     "pages/logs/logs"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#222127",
     "navigationBarBackgroundColor": "#222127",
     "navigationBarTitleText": "王者荣耀手游",
     "navigationBarTextStyle": "white"
